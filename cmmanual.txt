@@ -1,0 +1,27 @@
+                     = Manual do jogo =
+Objetivo:
+O jogo consiste em um campo, no qual o 
+usuario escolhe uma posicao que, ao ser 
+descoberta, pode aparecer uma bomba ou um numero. 
+Caso apareca uma bomba, o jogador perde;
+Se aparecer um numero, este significa quantas
+ bombas tem ao redor da posicao selecionada.
+Cada posicao descoberta, que nao é bomba, o 
+jogador ganha pontos, que dependem da dificuldade
+(quantidade de bombas digitada pelo jogador).
+O jogador ganha quando todos os espacos, que nao 
+sao minas, sao revelados.
+Como jogar:
+O usuario entra com a quantidade de bombas desejada 
+e o jogo ira retornar o campo com posicoes e varios 
+interrogacoes, que sao os campos nao selecionados. 
+O usuario ira digitar a linha e a coluna desejada. 
+O jogo ira retornar o campo minado novamente, com a 
+posicao ja escolhida anteriormente com um numero ou 
+uma bomba. Se for um numero, 
+o usuario ira digitar outra linha e outra coluna. 
+Entretanto, se for uma bomba, o jogo ira mostrar 
+todas as posicoes com os numeros e as bombas e a 
+pontuacao final do usuario.
+O usuario ira digitar seu nome e, se sua pontuacao 
+for alta, ira para os recordes.
